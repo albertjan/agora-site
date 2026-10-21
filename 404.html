@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Not here · agora</title>
+<link rel="icon" href="/agora-site/assets/favicon.svg" type="image/svg+xml">
+<style>
+:root{--ink:#16181D;--sand:#F2EDE4;--clay:#A4401A;font:17px/1.5 "Avenir Next","Futura",system-ui,sans-serif;color-scheme:light dark}
+@media (prefers-color-scheme:dark){:root{--ink:#F2EDE4;--sand:#141412;--clay:#EA8458}}
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:var(--sand);color:var(--ink);text-align:center;padding:24px}
+.sq{position:relative;width:120px;height:120px;margin:0 auto 26px}
+.sq i{position:absolute;width:34px;height:34px;border:8px solid var(--ink)}
+.sq i:nth-child(1){top:0;left:0;border-right:0;border-bottom:0}.sq i:nth-child(2){top:0;right:0;border-left:0;border-bottom:0}
+.sq i:nth-child(3){bottom:0;left:0;border-right:0;border-top:0}.sq i:nth-child(4){bottom:0;right:0;border-left:0;border-top:0}
+h1{font-size:32px;margin:0 0 8px}a{color:var(--clay);font-weight:700}
+</style>
+</head>
+<body>
+<main>
+  <div class="sq" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <h1>Nobody's here.</h1>
+  <p>The square is empty at this address. <a href="/agora-site/">Back to agora</a></p>
+</main>
+</body>
+</html>
